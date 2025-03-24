@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: white;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: orange;
+  /* background-image: url(/public/images/wallpaper.jpeg);
+  background-repeat: no-repeat;
+  opacity: calc();
+  background-size: cover; */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.product_img {
+  object-fit: contain;
+  width: 100%;
+  height: 200px;
+}
+.product_img:hover {
+  transform: scale(1.5);
+  transition: 5s;
+}
+.card {
+  height: 200px;
+  object-fit: contain;
+  
+}
+/* #main {
+  background-image: url(/public/images/wallpaper.jpeg);
+  background-repeat: no-repeat;
+  opacity: calc();
+  background-size: cover;
+} */
+/* #signupform {
+  background-color: burlywood;
+} */
+/* #nav {
+  background-image: url(/public/images/wallpaper.jpeg);
+  opacity: calc();
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+#title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 70px;
+  font-weight: 100;
+  
+}
+#nav {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  background-color: gray;
+  
+}
+#main {
+  background-color: grey;
+}
+
+#footer  {
+  background-image: url(/public/images/wallpaper.jpeg);
+  opacity: calc();
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: orange;
+}
+
+#single {
+  background-color: gray;
+}
+
