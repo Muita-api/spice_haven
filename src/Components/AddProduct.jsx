@@ -52,7 +52,7 @@ const AddProducts = () => {
     }
     
     return ( 
-        <div className="row justify-content-center mt-4">
+        <div className="row justify-content-center mt-4" id="form">
             {/* <nav className="m-4">
                 <Link to="/" className="btn btn-dark mx-2">Home</Link>
                 <Link to="/Addproduct" className="btn btn-dark mx-2">Add Product</Link>

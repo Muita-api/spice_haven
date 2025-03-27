@@ -55,11 +55,13 @@
   object-fit: contain;
   
 }
-/* #main {
+/* #home {
   background-image: url(/public/images/wallpaper.jpeg);
   background-repeat: no-repeat;
-  opacity: calc();
+  opacity: 0.9;
   background-size: cover;
+  filter: brightness(50%);
+  
 } */
 /* #signupform {
   background-color: burlywood;
@@ -81,22 +83,96 @@
   position: sticky;
   top: 0;
   z-index: 1020;
-  background-color: gray;
+  background-color: burlywood;
   
 }
 #main {
-  background-color: grey;
+  background-color: burlywood;
 }
 
 #footer  {
-  background-image: url(/public/images/wallpaper.jpeg);
+  background-image: url(/public/images/slide.avif);
   opacity: calc();
   background-repeat: no-repeat;
   background-size: cover;
-  color: orange;
+  color: black;
+  
 }
 
 #single {
-  background-color: gray;
+  background-color: burlywood;
+}
+#text {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: orange;
+  text-align: center;
+  z-index: 2;
+}
+.hero-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+.hero-text p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+#homepage {
+  background-color: burlywood;
+}
+#head {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: orange;
+}
+#sub {
+  font-size: 20px;
+}
+#form {
+  background-image: url(/public/images/slide.avif);
+  opacity: calc();
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
+#links{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  
+}
+
+#contact{
+  background-color: burlywood;
+
+}
